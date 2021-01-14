@@ -14,6 +14,7 @@ import ReactDOM from 'react-dom';
 | Components
 ---------------------------*/
 import Main from './React/Main.jsx';
+import TransitioningPictures from 'React/Main.jsx';
 
 /*---------------------------
 | Render to DOM
