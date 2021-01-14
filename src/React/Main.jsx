@@ -15,7 +15,7 @@ const imageOut =( ) => {
             onMouseOver={imageOver}
             onMouseOut={imageOut}
             />
-            <p>I was an elite NFL Quarterback</p>
+            <p>Eli Manning was an elite NFL quarterback.  </p>
         </div1>
     )
 }
