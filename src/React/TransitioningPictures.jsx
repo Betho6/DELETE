@@ -1,6 +1,6 @@
 import react, {useState} from 'react';
 
-const Main =() => {
+const TransitioningPictures =() => {
     const [imageSrc, imageSrcUpdate] = useState ('/assets/img/eli_normal.jpg');
 
 const imageOver =( ) => {
@@ -20,4 +20,4 @@ const imageOut =( ) => {
     )
 }
 
-export default Main ;
+export default TransitioningPictures ;

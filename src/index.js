@@ -13,10 +13,9 @@ import ReactDOM from 'react-dom';
 /*---------------------------
 | Components
 ---------------------------*/
-import Main from './React/Main.jsx';
-import TransitioningPictures from 'React/Main.jsx';
+import TransitioningPictures from 'React/TransitioningPictures.jsx';
 
 /*---------------------------
 | Render to DOM
 ---------------------------*/
-ReactDOM.render(<Main />, document.getElementById('root'));
+ReactDOM.render(<TransitioningPictures />, document.getElementById('root'));
