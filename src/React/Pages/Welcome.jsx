@@ -1,6 +1,6 @@
 import react, {useState} from 'react';
 
-const TransitioningPictures =() => {
+const Welcome =() => {
     const [imageSrc, imageSrcUpdate] = useState ('/assets/img/eli_normal.jpg');
 
 const imageOver =( ) => {
@@ -10,14 +10,14 @@ const imageOut =( ) => {
     imageSrcUpdate('/assets/img/eli_normal.jpg');
 }
     return (
-        <div1>
+        <div>
             <img src={ imageSrc }
             onMouseOver={imageOver}
             onMouseOut={imageOut}
             />
             <p>Eli Manning was an elite NFL quarterback.  </p>
-        </div1>
+        </div>
     )
 }
 
-export default TransitioningPictures ;
+export default Welcome ;

@@ -1,9 +1,10 @@
 import React from'react';
 
+/* Establishes refrence 'Header' Header div in container*/
 const Header =() => {
     return(
         <div classname='header'>
-            Header
+            <h1>Header</h1>
         </div>
     );
 }

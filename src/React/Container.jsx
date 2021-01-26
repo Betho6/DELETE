@@ -1,8 +1,10 @@
 import react from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
+/* Importing elements to container div */
 import Header from './Header.jsx';
 import Nav from './Nav.jsx';
-import TransitioningPictures from './TransitioningPictures.jsx';
+import Main from './Main.jsx';
 import Footer from './Footer.jsx';
 
 
@@ -10,13 +12,14 @@ import Footer from './Footer.jsx';
 const Container = () => {
 
     return (
-        <div classname='container'>
-            CONTENT
+        <BrowserRouter>
+        <div className='Container'>
             <Header />
             <Nav />
-            <TransitioningPictures />
+            <Main />
             <Footer />
         </div>
+        </BrowserRouter>
     );
 }
 
