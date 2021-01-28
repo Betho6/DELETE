@@ -1,5 +1,12 @@
 import react, {useState} from 'react';
 
+/* Components------*/
+import Slideshow from './SlideShow.jsx';
+import Tabbed from './Tabbed.jsx';
+import Staff from './Staff.jsx';
+
+
+
 const Welcome =() => {
     const [imageSrc, imageSrcUpdate] = useState ('/assets/img/eli_normal.jpg');
 
@@ -19,5 +26,9 @@ const imageOut =( ) => {
         </div>
     )
 }
-
+<div>
+    <Slideshow />
+    <Tabbed />
+    <Staff />   
+</div>
 export default Welcome ;

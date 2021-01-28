@@ -1,11 +1,12 @@
-<html>
+import React from 'react';
+import styled from 'styled-components';
 
-    <head>
-        <title>Final Project Homework</title>
-    </head>
-    <body>
+const Essay = () => {
+
+    return (
+        <EssayStyled className='Essay'>
         <h1>Final Project Homework</h1>
-        <h2>Q1. Explain the difference between HTML, CSS and JS.</h2>
+        <h2>Explain the difference between HTML, CSS and JS.</h2>
         <p>Html stands for Hyper Text Markup Language. Markup language refers to the fact that HTML documents contain content which is marked by tags. The tags catogrize the information that the webpage interprets. The tags have predetermined styling that allows the information to follow basic hierarchy based on the tags used. On its own HTML will display plain content with a defualt appearance.  </p>
         <p>To give any type of design astetic to an HTML document it must have an attatched CSS document. CSS stands for Cascading Style Sheets. CSS uses HTML tags to detmerine where to apply stylistic treatments to the conent of your web page. The author of the code identifies a tag and then determins what conent with that tag so appear like on the site.</p>
         <p>CSS and HTML can be used to create a static page that will display content for the end user. However, to offer any ability to interact with the page JavaScript is requiered. JavaScript uses logic statments to tell the page how to behave given certain perameters. One common way to do this is with If/ then statments. If a user does X, then the page should do Y, additional criteria can be given as well. An example would be a user pressing a button that prompts the page to do something like show an image or request additional information.</p>
@@ -24,5 +25,12 @@
 
         <h2>Final Project Description</h2>
         <p>For my final project I would like to do a website for a multi-use space that is owned by a brewery that owns and opperates in the space. The other stalls are rented to be used by outside vendors. Sections on the website would include tap list for the brewery, as well as a list of vendors. One page would advertise upcoming events at the multi-use space. Another page to create an account for their loyalty program and to join a mailing list, while another would be a prospective vendor contact form. The site could include a image gallery that's imported from the venues other social media accounts or populated using the venues hash tag.</p>
-    </body>
-</html>
+        </EssayStyled>
+    );
+}
+
+export default Essay;
+
+const EssayStyled = styled.div`
+    
+`;
