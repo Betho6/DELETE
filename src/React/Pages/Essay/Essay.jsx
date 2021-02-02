@@ -21,10 +21,12 @@ const Essay = () => {
         
         <h2>Session 6: Distinguish the difference between site relative, document relative, and absolute paths</h2>
         <p>A relative link is a path on a website that is dependant on the location of the page displayed to the user. It allows the content creator to ommiut the URL of the site by navigating the user to a page saved in an adjacent directory. They're able to do this because the user is already in the same directory or file tree as the page they're being liked to.</p>
-        <p>An aboslute link is a link that uses a pages full URL to link directly to that page. The link will work for the user irrespective of their location in the file directory of the sire they're. The link is aboslute because it does not refrence a location in the sites file directory but insted the address of the pages location on the web. </p>
+        <p>An aboslute link is a link that uses a pages full URL to link directly to that page. The link will work for the user irrespective of their location in the file directory of the sire they're. The link is aboslute because it does not refrence a location in the sites file directory but insted the address of the pages location on the web. Document relative links are file paths relative to the document you're working on. </p>
 
         <h2>Final Project Description</h2>
         <p>For my final project I would like to do a website for a multi-use space that is owned by a brewery that owns and opperates in the space. The other stalls are rented to be used by outside vendors. Sections on the website would include tap list for the brewery, as well as a list of vendors. One page would advertise upcoming events at the multi-use space. Another page to create an account for their loyalty program and to join a mailing list, while another would be a prospective vendor contact form. The site could include a image gallery that's imported from the venues other social media accounts or populated using the venues hash tag.</p>
+        <h2>What does it mean for a company to be agile? What is the purpose of being agile? What are the Pros and Cons</h2>
+        <p>An agile company is one that is able to change and respond quickly to external factors. Factors that allow a company to act quickly are colaborative environments with remote possibilities. Options like this allow for more rapid time lines and quick movement. Agility offers a clear competative advantage in the sense that it allows a company to beat the competition to accomodate to client or customer needs.   </p>
         </EssayStyled>
     );
 }
