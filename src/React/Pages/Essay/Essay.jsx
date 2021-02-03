@@ -26,8 +26,10 @@ const Essay = () => {
         <h2>Final Project Description</h2>
         <p>For my final project I would like to do a website for a multi-use space that is owned by a brewery that owns and opperates in the space. The other stalls are rented to be used by outside vendors. Sections on the website would include tap list for the brewery, as well as a list of vendors. One page would advertise upcoming events at the multi-use space. Another page to create an account for their loyalty program and to join a mailing list, while another would be a prospective vendor contact form. The site could include a image gallery that's imported from the venues other social media accounts or populated using the venues hash tag.</p>
         <h2>What does it mean for a company to be agile? What is the purpose of being agile? What are the Pros and Cons</h2>
-        <p>An agile company is one that is able to change and respond quickly to external factors. Factors that allow a company to act quickly are colaborative environments with remote possibilities. Options like this allow for more rapid time lines and quick movement. Agility offers a clear competative advantage in the sense that it allows a company to beat the competition to accomodate to client or customer needs.   </p>
+        <p>An agile company is one that is able to change and respond quickly to external factors. Factors that allow a company to act quickly are colaborative environments with remote possibilities. Options like this allow for more rapid time lines and quick movement. Agility offers a clear competative advantage in the sense that it allows a company to beat the competition to accomodate to client or customer needs. Approach to project managment.   </p>
+        <h2>Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.</h2>
         </EssayStyled>
+
     );
 }
 
