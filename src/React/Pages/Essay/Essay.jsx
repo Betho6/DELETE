@@ -26,8 +26,30 @@ const Essay = () => {
         <h2>Final Project Description</h2>
         <p>For my final project I would like to do a website for a multi-use space that is owned by a brewery that owns and opperates in the space. The other stalls are rented to be used by outside vendors. Sections on the website would include tap list for the brewery, as well as a list of vendors. One page would advertise upcoming events at the multi-use space. Another page to create an account for their loyalty program and to join a mailing list, while another would be a prospective vendor contact form. The site could include a image gallery that's imported from the venues other social media accounts or populated using the venues hash tag.</p>
         <h2>What does it mean for a company to be agile? What is the purpose of being agile? What are the Pros and Cons</h2>
-        <p>An agile company is one that is able to change and respond quickly to external factors. Factors that allow a company to act quickly are colaborative environments with remote possibilities. Options like this allow for more rapid time lines and quick movement. Agility offers a clear competative advantage in the sense that it allows a company to beat the competition to accomodate to client or customer needs. Approach to project managment.   </p>
+        <p>An agile company is one that is able to change and respond quickly to external factors. Factors that allow a company to act quickly are colaborative environments with remote possibilities. Options like this allow for more rapid time lines and quick movement. Agility offers a clear competative advantage in the sense that it allows a company to beat the competition to accomodate to client or customer needs. Approach to project managment.</p>
         <h2>Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.</h2>
+        <ul>
+            <li>A project manager is responsible for determining the scope of work for a project, as well as setting time lines and ensuring that deadlines are being met. A project manager is also responsible for adhering to budget and determining hours for personal.</li> 
+
+            <li>Ensure the product is running optimally. Communicates bottlknecks.</li>
+            
+            <li>A Wed Developer/Engineer is the person on a team who is specifically for building out the product. A Scrum master is a position who is responsible for maintaing that a team adhere to agile values that they previously outlined.</li> 
+        
+            <li>A Scrum Master is some one who has a strong knoweledge of Scrum Frame work. A UX designer is responsible to ensure an optimal and plesenet end user experience of a product.</li>   
+            
+            <li> UX designer uses information, user behaviors/stories to work with the development team to ensure the product is the best possible experience for the end user.</li>
+
+            <li>A quality ensurance tester is a gatekeeper for issues and bigs before it goes to production. They also write scripts to run automated tests</li> 
+        
+            <li>DevOps is a working philosiphy that combines IT Operations and software developement. Development Opereations, handles server architecture and deployment of apps</li>
+        </ul>
+        <h2>What is the difference between jpg, gif, png and SVG images?</h2>
+            <ul>
+                <li>JPG a jpg is an image file format that is optimal for its file compresion, whcih allows pages to load faster. Another benifit is that a jpg's color content is nearly limitless. However Jpg's do not preserve transparenct or allow video/motion.</li>
+                <li>A gif also can have a small file size to preserve loading speed on web pages. Gifs also preserve transperecny, and allow for motion. However, gifs color gamut is limited to only 256 colors so complex or gradianted images can suffer in quality</li>
+                <li>Pngs are a file type ideal for images that will live digitally, as they do not support CMYK color images, however, they also do respect transperancy and have a larger color gamut than gifs.</li>
+                <li>An SVG stands for Scaleable Vector Graphic. The advantage of an SVG is that it preserves the vector quality of images, and allows individual components to be animated.</li>
+            </ul>
         </EssayStyled>
 
     );
