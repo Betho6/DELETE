@@ -50,6 +50,8 @@ const Essay = () => {
                 <li>Pngs are a file type ideal for images that will live digitally, as they do not support CMYK color images, however, they also do respect transperancy and have a larger color gamut than gifs.</li>
                 <li>An SVG stands for Scaleable Vector Graphic. The advantage of an SVG is that it preserves the vector quality of images, and allows individual components to be animated.</li>
             </ul>
+        <h2>What are testing environments</h2>
+        <p>A testing environment is a combination hardware and software that emulate live conditions for an application to accuratly test for bugs. Some things that may be required to to set up a test environment could be a variety of opperating systems, access to data bases, internet, or network access.An important part of setting up a testing environment is verifing what is relevant to the application in order to midigate cost and time expendature.</p>
         </EssayStyled>
 
     );
